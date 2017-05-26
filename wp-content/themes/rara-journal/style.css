@@ -1250,6 +1250,16 @@ img{
 	margin-top: 21px;
 }
 
+.lSSlideOuter  a {
+	pointer-events: none;
+   cursor: default;
+}
+
+.more-link {
+	pointer-events:inherit !important;
+	cursor: pointer;
+}
+
 input.cnt_input {
 	display: inline-block !important;
     width: 43%;

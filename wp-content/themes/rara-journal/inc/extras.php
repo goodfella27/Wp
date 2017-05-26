@@ -234,27 +234,7 @@ function rara_journal_slider_cb(){
     				    <?php 
                         the_post_thumbnail( 'rara-journal-slider' ); ?>
                         <?php if($rarajournal_slider_caption){ ?>      
-<!--  <div class="nav-icons">
-<a href="#" class="prev_image" title="Previous Image" onclick="moveImage('left')">Next</a>
-<a href="#" class="next_image" title="Next Image" onclick="moveImage('right')">Previous</a>
-</div> -->
 
- <script>
-// var current = 1;
-// function moveImage(direction){
-//    if(direction == "left"){
-//       loadImage( current - 1 );
-//    }else{
-//      loadImage( current + 1 );
-//    }  
-// }
-
-// function loadImage( id ) {
-//  var image = document.getElementById( 'image'+id );
-//  image.setAttribute( 'src', 'userfiles/photo'+id+'.jpg' );
-//  current = id;
-// }
-// </script>
                   <?php } ?> 
               </a>  
     			</li>
