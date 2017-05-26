@@ -55,6 +55,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	text-align: center; 
 	margin-bottom: 21px;
 	color: #003888;
+	margin-top: 30px;
+}
+
+.lSSlideOuter .lSPager.lSpg {
+    display: none;
 }
 
 .menu-home-container li a {
@@ -109,6 +114,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     left: 0;
     height: 46px;
 }
+
 
 .contacts_section p {
 	font-size: 13px !important;
@@ -2393,6 +2399,7 @@ style.css?ver=1.0.5:469
 
 	.slider_caption {
     width: 60%;
+    top: 0px !important;
 }
 
 	.bottom_section_content img {
@@ -2516,6 +2523,18 @@ style.css?ver=1.0.5:469
 		line-height: 32px;
 	}
 
+	.middle_section {
+		margin: 0 15px;
+	}
+
+	.site-branding h1 {
+	display: none;
+}
+
+
+	.slider {
+		display: none;
+	}
 	.top_section {
 		margin-top: 21px !important;
 	}
@@ -2686,6 +2705,10 @@ style.css?ver=1.0.5:469
     padding-right: 34px;
 }
 .site_container {
+	display: none;
+}
+
+.slider {
 	display: none;
 }
 
