@@ -1144,7 +1144,7 @@ img{
 }
 .header-top{
 	padding: 8px 0 10px;
-	background: #141414;
+	background: #003888;
 	display: none;
 }
 .header-top:after{
@@ -1520,7 +1520,7 @@ style.css?ver=1.0.5:469
     margin-top: 15px;
 }
 .site-footer .widget-area .column{
-	width: 14%;
+	width: 100%;
 	padding: 0 15px;
 	box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -1542,7 +1542,15 @@ style.css?ver=1.0.5:469
 }
 .widget-area ul li{
 	list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8px;
 	
+}
+
+.sub-menu li {
+	display: block !important;
+	margin:0px !important;
 }
 
 .widget_nav_menu .sub-menu li a {
@@ -2435,10 +2443,6 @@ style.css?ver=1.0.5:469
 		width: 40%;
 	}
 
-	.dainius {
-		asdasd
-	}
-
 	.site-footer .widget-area .col{
 		width: 50%;
 	}
@@ -2511,6 +2515,10 @@ style.css?ver=1.0.5:469
 		font-size: 28px;
 		line-height: 32px;
 	}
+
+	.top_section {
+		margin-top: 21px !important;
+	}
 	.site-description{
 		font-size: 12px;
 		line-height: 15px;
@@ -2531,7 +2539,7 @@ style.css?ver=1.0.5:469
 		line-height: 32px;
 	}
 	.site-footer .widget-area .column{
-		width: 50%;
+		width: 100%;
 	}
 	.widget-area .post{
 		min-height: 94px;
