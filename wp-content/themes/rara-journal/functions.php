@@ -89,7 +89,7 @@ function rara_journal_setup() {
     ) );
 
 	 // Custom Image Sizes
-	add_image_size( 'rara-journal-slider', auto, auto, true );
+	add_image_size( 'rara-journal-slider', 1080, 0, true );
     add_image_size( 'rara-journal-with-sidebar', 846, 515, true );
     add_image_size( 'rara-journal-without-sidebar', 1140, 610, true );
     add_image_size( 'rara-journal-featured-post', 275, 275, true );

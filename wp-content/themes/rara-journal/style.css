@@ -1257,7 +1257,7 @@ img{
 
 .more-link {
 	pointer-events:inherit !important;
-	cursor: pointer;
+	cursor: pointer !important;
 }
 
 input.cnt_input {
