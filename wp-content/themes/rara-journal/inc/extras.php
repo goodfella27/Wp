@@ -229,6 +229,14 @@ function rara_journal_slider_cb(){
 
     			<li>
                       <div class="slider_caption"><?php the_content();?></div>
+                   
+
+    				    <?php 
+                        the_post_thumbnail( 'rara-journal-slider' ); ?>
+                        <?php if($rarajournal_slider_caption){ ?>      
+
+                  <?php } ?> 
+             
     			</li>
                 <?php 
                 }
